@@ -1,6 +1,6 @@
 import { TOGGLE_RTL } from '../constans.js'
 
-const initialState = { isRtl: true };
+const initialState = { isRtl: false };
 
 export { initialState };
 

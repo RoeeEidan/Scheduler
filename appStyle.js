@@ -3,7 +3,6 @@ import { Dimensions } from 'react-native';
 const appStyle = {
     calenderTextColor: '#677580',
     calenderDayNamesColor: '#c9cbcd',
-    // lightTextColor: '#dddfe1',
     appColor: '#3b5998',
     backgroundColor: '#fff',
     rowHeight: 40,
@@ -16,5 +15,5 @@ const appStyle = {
 }
  
 const windowWidth = Dimensions.get('window').width;
-
+ 
 export {windowWidth, appStyle}

@@ -2,11 +2,8 @@ import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
 import { daysAndMonths } from '../constans.js';
-import CalenderTopBar from './Calender/CalenderTopBar.js';
-import ClenderDays from './Calender/ClenderDays.js';
 import CalenderScroll from './Calender/CalenderScroll.js';
 import DateLable from './Calender/DateLable.js';
-import CalendersDayNames from './Calender/CalendersDayNames.js';
 import { increace, decreace } from '../Actions/index.js'
 import { appStyle } from '../appStyle.js';
 
